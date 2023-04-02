@@ -13,5 +13,5 @@ NIM   : 2502041174
 php artisan serve
 ```
 
-ini coba dulu
+ini udh jadi
 
