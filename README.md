@@ -6,7 +6,7 @@ absent: 13
 NIM   : 2502041174
 
 ## Images
-![This is a alt text.](/image/sample.png "This is a sample image.")
+![This is a alt text.](SS.png "This is a sample image.")
 
 ## Usage
 ```sh
