@@ -15,5 +15,5 @@ Berikut merupakan hasil screenshot dari personal website yang sudah dibuat:
 ```sh
 php artisan serve
 ```
-## DONE
+## DONE!
 

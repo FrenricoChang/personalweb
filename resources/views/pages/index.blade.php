@@ -195,7 +195,7 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                      {{-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a> --}}
                     </div>
                   </div>
                 </div>
@@ -220,7 +220,7 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                      {{-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a> --}}
                     </div>
                   </div>
                 </div>
@@ -245,7 +245,7 @@
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                      {{-- <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a> --}}
                     </div>
                   </div>
                 </div>
@@ -282,10 +282,10 @@
                     </div>
                     <div class="socials">
                       <ul>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                          <li><a><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li>
+                          <li><a><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                          <li><a></a><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                          <li><a><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
                       </ul>
                     </div>
                   </div>
