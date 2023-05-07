@@ -5,27 +5,47 @@
 }
 
 .box-luar{
-    height: 80vw;
+    height: 50.8vw;
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    gap: 5vw;
+    background-color: rgb(154, 185, 175);
     border: red solid;
 }
 
 .box-judul{
+    margin-top: 5vw;
+    height: auto;
+    width: 50vw;
+    border-radius: 5vw;
     border: cyan solid;
 }
 
 .judul{
-    border: purple solid;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
 }
 
 .box-list-games{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    border: purple solid;
 }
 
 .list-games{
 
     border: yellow solid;
+}
+
+.GamesName, .GamesType, .GamesPlaytime{
+    text-decoration: none;
+    border: green solid;
 }
