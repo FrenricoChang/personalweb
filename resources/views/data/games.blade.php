@@ -18,6 +18,9 @@
                 @if ($game['type'] == "MOBA")
                     <a href="description/{{ $game['id'] }}" class="MOBA">
                         <div class="list-games">
+                            <div class="box-gambar">
+                                <img class="games-img" src="{{ asset('img/' .$game['Img']) }}">
+                            </div>
                             <h5 class="GamesName">{{ $game['name'] }}</h5>
                             <p class="GamesType">{{ $game['type'] }}</p>
                             <p class="GamesPlaytime">{{ $game['playtime'] }}</p>
@@ -26,14 +29,20 @@
                 @elseif ($game['type'] == "FPS")
                 <a href="description/{{ $game['id'] }}" class="FPS">
                     <div class="list-games">
+                        <div class="box-gambar">
+                            <img class="games-img" src="{{ asset('img/' .$game['Img']) }}">
+                        </div>
                         <h5 class="GamesName">{{ $game['name'] }}</h5>
                         <p class="GamesType">{{ $game['type'] }}</p>
                         <p class="GamesPlaytime">{{ $game['playtime'] }}</p>
                     </div>
                 </a>
                 @else
-                <a href="description/{{ $game['id'] }}" class="Battle Royal">
+                <a href="description/{{ $game['id'] }}" class="Battle Royale">
                     <div class="list-games">
+                        <div class="box-gambar">
+                            <img class="games-img" src="{{ asset('img/' .$game['Img']) }}">
+                        </div>
                         <h5 class="GamesName">{{ $game['name'] }}</h5>
                         <p class="GamesType">{{ $game['type'] }}</p>
                         <p class="GamesPlaytime">{{ $game['playtime'] }}</p>

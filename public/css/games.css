@@ -13,22 +13,25 @@
     padding-left: 3vw;
     padding-right: 3vw;
     gap: 5vw;
-    background-color: rgb(154, 185, 175);
-    border: red solid;
+    background-color: #1d1d1d;
+    /* border: red solid; */
 }
 
 .box-judul{
     margin-top: 5vw;
     height: auto;
     width: 50vw;
-    border-radius: 5vw;
-    border: cyan solid;
+    border-radius: 3vw;
+    border: #208c8c solid;
 }
 
 .judul{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.5vw;
     text-align: center;
+    color: #cae9ea;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 .box-list-games{
@@ -36,16 +39,66 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 25vw;
+    width: 50vw;
+    border-radius: 5vw;
     gap: 2vw;
-    border: purple solid;
+    border: #208c8c solid;
 }
 
 .list-games{
-
-    border: yellow solid;
+    height: 15vw;
+    width: 8vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2vw;
+    border: #4a656b solid;
 }
 
-.GamesName, .GamesType, .GamesPlaytime{
+.box-gambar{
+    height: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5vw;
+    border: #4a656b solid;
+}
+
+.games-img{
+    width: 80%;
+}
+
+.GamesName{
     text-decoration: none;
-    border: green solid;
+    height: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-top: 0.8vw;
+    /* border: green solid; */
+}
+
+.GamesType{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8vw;
+    text-align: center;
+    color: white;
+    margin-top: 0.5vw;
+    /* border: green solid; */
+}
+
+.GamesPlaytime{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8vw;
+    text-align: center;
+    color: white;
+    margin-top: 0.5vw;
+    /* border: green solid; */
 }

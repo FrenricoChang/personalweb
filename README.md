@@ -9,7 +9,9 @@ NIM   : 2502041174<br>
 ```sh
 Berikut merupakan hasil screenshot dari personal website yang sudah dibuat:
 ```
-![This is a alt text.](SS.png "This is a sample image.")
+![This is a alt text.](SS1.png "This is a sample image.")
+![This is a alt text.](SS2.png "This is a sample image.")
+<!-- ![This is a alt text.](SS3.png "This is a sample image.") -->
 
 ## Usage
 ```sh
